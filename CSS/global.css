@@ -1,0 +1,60 @@
+body{
+	font-size: 14pt;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: url(../Images/bgPattern.jpg);
+}
+
+#banner{
+	text-align: center;
+	margin: 0 auto;
+	overflow: hidden;
+	width: 100%;
+	height: 135px;
+}
+
+#main{
+	width: 95%;
+	margin: 0 auto;
+	overflow: auto;
+}
+
+#nav{
+	overflow: auto;
+	margin: 0 auto;
+}
+
+#content{
+	background: transparent;
+}
+
+.infoBox{
+	background: white;
+	border-radius: 10px;
+	width: 45%;
+}
+
+.pageHeading{
+	text-align: center;
+	height: 44px;
+	background: white;
+	border-radius: 22px;
+	margin: 10px auto;
+	width: 50%;
+}
+
+.boxHeading{
+	text-align: center;
+}
+
+
+
+
+.left{
+	float: left;
+}
+
+.right{
+	float: right;
+}
