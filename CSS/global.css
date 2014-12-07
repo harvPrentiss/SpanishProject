@@ -15,18 +15,23 @@ body{
 }
 
 #main{
-	width: 95%;
+	width: 90%;
 	margin: 0 auto;
 	overflow: auto;
+	overflow-x: hidden;
 }
 
 #nav{
 	overflow: auto;
 	margin: 0 auto;
+	text-align: center;
+	width: 1280px;
 }
 
 #content{
+	margin: 0 auto;
 	background: transparent;
+	width: 1280px;
 }
 
 .infoBox{
