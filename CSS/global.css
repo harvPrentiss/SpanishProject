@@ -13,12 +13,19 @@ background-color: #131313;
 background-size: 20px 20px;
 }
 
+iframe{
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+}
+
 #banner{
 	text-align: center;
 	margin: 0 auto;
 	overflow: hidden;
-	width: 100%;
+	width: 1280px;
 	height: 135px;
+	background: url(../Images/banner.jpeg) no-repeat;
 }
 
 #main{
@@ -56,7 +63,7 @@ background-size: 20px 20px;
 	background: white;
 	border-radius: 22px;
 	margin: 10px auto;
-	width: 50%;
+	width: 80%;
 }
 
 .boxHeading{
@@ -88,4 +95,15 @@ background-size: 20px 20px;
 
 .full{
 	width: 100%;
+}
+
+.inline{
+	display: inline-block;
+}
+
+@media (max-width: 1024px){
+	#banner{
+		background: url(../Images/bannerSmall.jpeg) no-repeat;
+		width: 1024px;
+	}
 }
